@@ -1,5 +1,6 @@
 import './App.css'
 import Counter from './Counter';
+import Users from './Users';
 
 function App() {
   // event handler using a function
@@ -18,6 +19,7 @@ function App() {
   return (
     <>
       <h2>React core concept part 2</h2>
+      <Users></Users>
       <Counter></Counter>
       <button onClick={handleClickMe}>Click Me</button>
       <button onClick={handleClick2}>Click2</button>
